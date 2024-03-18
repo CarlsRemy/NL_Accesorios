@@ -1,0 +1,61 @@
+main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 15px;
+	background-color: #f4f4f4;
+	padding: 15px 10px;
+}
+
+.shopping {
+	background-color: #fff;
+	width: 65vw;
+	height: 400px;
+}
+
+
+.payment {
+	display: flex;
+	flex-direction: column;
+	width: clamp(250px, 35vw, 30vw);
+	gap: 10px;
+}
+
+.prices {
+	font-size: 24px !important;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.payment button {
+	background-color: #000;
+	color: #fff;
+	font-size: 22px;
+	font-weight: bold;
+	border: none;
+	width: 100%;
+	padding: 10px;
+}
+
+.payment Article {
+	background-color: #fff;
+	padding: 10PX;
+}
+
+.payment img {
+	width: 50px;
+	height: 34px;
+}
+
+
+.credit_card {
+	display: grid;
+	gap: 10px 15px;
+	grid-template-columns: 50px 50px 50px 50px;
+	padding: 5px;
+}
+
+
+.py-5 {
+	grid-column: 2 span;
+	background-color: #fff;
+}
