@@ -1,0 +1,43 @@
+[
+	{
+		"code": "01",
+		"Name": "Taza",
+		"price": 150.00,
+		"nota": "¡Haz que cada sorbo cuente con nuestro termo personalizado!",
+		"descripcion": "Diseñado para acompañarte en tus aventuras diarias, ya sea en la oficina, en el gimnasio o explorando la naturaleza. Con su construcción de acero inoxidable de alta calidad, mantiene tus bebidas frías o calientes durante horas. Pero lo que realmente lo hace especial es la posibilidad de personalizarlo con tu propio estilo."
+	},
+	{
+		"code": "02",
+		"Name": "Gorra",
+		"price": 350.00,
+		"nota": "",
+		"descripcion": ""
+		
+	},
+	{
+		"code": "03",
+		"Name": "Termo",
+		"price": 175.00,
+		"nota": "",
+		"descripcion": ""
+	},
+	{
+		"code": "04",
+		"Name": "Llavero",
+		"price": 75.00
+	},
+	{
+		"code": "05",
+		"Name": "Taza de Ceramica",
+		"price": 160.00,
+		"nota": "",
+		"descripcion": ""
+	},
+	{
+		"code": "06",
+		"Name": "Llavero",
+		"price": 75.00,
+		"nota": "",
+		"descripcion": ""
+	}
+]

@@ -82,9 +82,29 @@
         </div>
     </nav>
     <!-- Close Header -->
-    <main>
+    <main id="App">
         <section class="shopping">
-
+            <article class="product">
+                <div v-for="(A, index) in Articulo" :key="index">
+                    <picture><img :src="'./assets/img/'+ A.img" alt=""></picture>
+                    <label for="">{{A.name}}</label>
+                </div>
+            </article>
+            <article class="empaque">
+                <Label>Elije el Empaque de su Preferencia</Label>
+                <picture>
+                    <img src="./assets/img/Empaque1.webp" alt="">
+                </picture>
+                <picture>
+                    <img src="./assets/img/Empaque2.webp" alt="">
+                </picture>
+                <picture>
+                    <img src="./assets/img/Empaque3.webp" alt="">
+                </picture>
+                                <picture>
+                    <img src="./assets/img/Empaque4.webp" alt="">
+                </picture>
+            </article>
         </section>
 
         <section class="payment">
@@ -198,6 +218,7 @@
     <!-- End Footer -->
 
     <!-- Start Script -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.4.21/dist/vue.global.prod.js"></script>
     <script src="assets/js/jquery-1.11.0.min.js"></script>
     <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
@@ -209,6 +230,28 @@
     <!-- Start Slider Script -->
     <script src="assets/js/slick.min.js"></script>
     <script>
+        const { createApp } = Vue
+        const app = createApp({
+            data() {
+                return {
+                    Articulo: {}, 
+                }
+            },
+
+            methods: {
+                GetSession(Name) {
+                    let json = sessionStorage.getItem(Name);
+                    let NewData = JSON.parse(json);
+                    return NewData ?? [];
+                },
+            },
+            async mounted() {
+                this.Articulo = this.GetSession("Carrito");
+            }
+        });
+        app.mount('#App');
+
+
         $('#carousel-related-product').slick({
             infinite: true,
             arrows: false,

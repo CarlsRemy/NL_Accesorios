@@ -100,7 +100,7 @@
             cursor: nesw-resize;
         }
 
-        #Option-left{
+        #Option-left {
             position: absolute;
             left: -50px;
             top: 0;
@@ -109,25 +109,24 @@
             gap: 6px;
         }
 
-        #Option-left button
-        { 
+        #Option-left button {
             background-color: #fff;
             border: 1px solid rgb(138, 138, 138);
         }
 
-        #Option-bottom{
+        #Option-bottom {
             display: flex;
             flex-direction: row;
             align-items: center;
             gap: 5px;
-            
+
         }
 
-        #Option-bottom button{
-            padding: 0px 5px; 
-            background-color: white; 
-            position: relative; 
-            border: 1px solid #171818!important;
+        #Option-bottom button {
+            padding: 0px 5px;
+            background-color: white;
+            position: relative;
+            border: 1px solid #171818 !important;
         }
     </style>
     <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
@@ -223,7 +222,7 @@ https://templatemo.com/tm-559-zay-shop
 
 
     <!-- Open Content -->
-    <section class="bg-light">
+    <section class="bg-light" id="App">
         <div class="container pb-5">
             <div class="row">
                 <div class="col-lg-5 mt-5">
@@ -239,7 +238,9 @@ https://templatemo.com/tm-559-zay-shop
 
                         <section id="Option-left">
                             <button class="p-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="w-6 h-6">
                                     <path d="M6 8L2 12L6 16"></path>
                                     <path d="M2 12H22"></path>
                                 </svg>
@@ -247,65 +248,77 @@ https://templatemo.com/tm-559-zay-shop
                             </button>
 
                             <button class="p-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
-							        <path d="M6 2v14a2 2 0 0 0 2 2h14"></path>
-							        <path d="M18 22V8a2 2 0 0 0-2-2H2"></path>
-						        </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="w-6 h-6">
+                                    <path d="M6 2v14a2 2 0 0 0 2 2h14"></path>
+                                    <path d="M18 22V8a2 2 0 0 0-2-2H2"></path>
+                                </svg>
                                 <span class="sr-only">Cultivo</span>
                             </button>
 
                             <button class="p-2" id="center-horizontal">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="w-6 h-6">
                                     <path d="M8 3H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h3"></path>
                                     <path d="M16 3h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-3"></path>
                                     <path d="M12 20v2"></path>
                                     <path d="M12 14v2"></path>
                                     <path d="M12 8v2"></path>
                                     <path d="M12 2v2"></path>
-						        </svg>A
+                                </svg>A
                                 <span class="sr-only">centrar horizontalmente</span>
                             </button>
 
                             <button class="p-2" id="center-vertical">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="w-6 h-6">
                                     <path d="M21 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v3"></path>
                                     <path d="M21 16v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-3"></path>
                                     <path d="M4 12H2"></path>
                                     <path d="M10 12H8"></path>
                                     <path d="M16 12h-2"></path>
                                     <path d="M22 12h-2"></path>
-						        </svg>
+                                </svg>
                                 <span class="sr-only">centrar verticalmente</span>
                             </button>
 
                             <button class="p-2" id="zoomOut">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
-							    <path d="M5 12h14"></path>
-						        </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="w-6 h-6">
+                                    <path d="M5 12h14"></path>
+                                </svg>
                                 <span class="sr-only">Acercarse</span>
                             </button>
-                        
-				            <button class="p-2" id="zoomIn"><svg
-							xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-							stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
-							<path d="M5 12h14"></path>
-							<path d="M12 5v14"></path>
-						</svg><span class="sr-only">Alejarse</span></button>
+
+                            <button class="p-2" id="zoomIn"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5v14"></path>
+                                </svg><span class="sr-only">Alejarse</span></button>
 
                         </section>
                     </div>
 
-                    <div id="Option-bottom" >
-                        <div class="rounded text-sm" style="width: fit-content; padding: 0px 5px; background-color: white; position: relative; border: 1px solid #171818!important;">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4">
+                    <div id="Option-bottom">
+                        <div class="rounded text-sm"
+                            style="width: fit-content; padding: 0px 5px; background-color: white; position: relative; border: 1px solid #171818!important;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="w-4 h-4">
                                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                                 <polyline points="17 8 12 3 7 8"></polyline>
                                 <line x1="12" x2="12" y1="3" y2="15"></line>
                             </svg>
                             <label for="inputImagen" class="text-sm font-medium">Cargar imagen</span>
-                            <input style="opacity: 0;width: -webkit-fill-available;position: absolute;left: 0px;" type="file" id="inputImagen" accept="image/*">
+                                <input style="opacity: 0;width: -webkit-fill-available;position: absolute;left: 0px;"
+                                    type="file" id="inputImagen" accept="image/*">
                         </div>
-                        <button  class="rounded text-sm" disabled id="restablecer">Restablecer</button>
+                        <button class="rounded text-sm" disabled id="restablecer">Restablecer</button>
                     </div>
                     <div class="row">
                         <!--Start Controls-->
@@ -411,8 +424,8 @@ https://templatemo.com/tm-559-zay-shop
                 <div class="col-lg-7 mt-5">
                     <div class="card">
                         <div class="card-body">
-                            <h1 class="h2">Termo</h1>
-                            <p class="h3 py-2">$175.00</p>
+                            <h1 class="h2">{{Articulo.name}}</h1>
+                            <p class="h3 py-2">${{Articulo.price}}</p>
                             <p class="py-2">
                                 <i class="fa fa-star text-warning"></i>
                                 <i class="fa fa-star text-warning"></i>
@@ -422,12 +435,7 @@ https://templatemo.com/tm-559-zay-shop
                                 <span class="list-inline-item text-dark">Clasificación 4.8 | 36 Mentarios</span>
                             </p>
                             <h6>Descripcion:</h6>
-                            <p>¡Haz que cada sorbo cuente con nuestro termo personalizado! <br> Diseñado para
-                                acompañarte en tus aventuras diarias, ya sea en la oficina,
-                                en el gimnasio o explorando la naturaleza. Con su construcción de acero inoxidable de
-                                alta calidad, mantiene tus bebidas frías
-                                o calientes durante horas. Pero lo que realmente lo hace especial es la posibilidad de
-                                personalizarlo con tu propio estilo.</p>
+                            <p>{{Articulo.nota}}<br>{{Articulo.descripcion}}</p>
                             <ul class="list-inline">
                                 <li class="list-inline-item">
                                     <h6>Colores disponibles :</h6>
@@ -437,7 +445,7 @@ https://templatemo.com/tm-559-zay-shop
                                 </li>
                             </ul>
 
-                            <form action="" method="GET">
+                            <div>
                                 <input type="hidden" name="product-title" value="Activewear">
                                 <div class="row">
                                     <!-- <div class="col-auto">
@@ -469,15 +477,15 @@ https://templatemo.com/tm-559-zay-shop
                                 </div>
                                 <div class="row pb-3">
                                     <div class="col d-grid">
-                                        <button type="submit" class="btn btn-success btn-lg" name="submit"
+                                        <button @click="Compar" class="btn btn-success btn-lg" name="submit"
                                             value="buy">Comprar</button>
                                     </div>
                                     <div class="col d-grid">
-                                        <button type="submit" class="btn btn-success btn-lg" name="submit"
+                                        <button @click="Compar" class="btn btn-success btn-lg" name="submit"
                                             value="addtocard">Agregar al Carrito</button>
                                     </div>
                                 </div>
-                            </form>
+                            </div>
 
                         </div>
                     </div>
@@ -587,6 +595,7 @@ https://templatemo.com/tm-559-zay-shop
     <!-- End Footer -->
 
     <!-- Start Script -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.4.21/dist/vue.global.prod.js"></script>
     <script src="assets/js/jquery-1.11.0.min.js"></script>
     <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
@@ -597,6 +606,95 @@ https://templatemo.com/tm-559-zay-shop
     <!-- Start Slider Script -->
     <script src="assets/js/slick.min.js"></script>
     <script>
+        const { createApp } = Vue
+        const app = createApp({
+            data() {
+                return {
+                    Articulo: {},
+                    Data: [
+                        {
+                            "code": "01",
+                            "name": "Taza",
+                            "price": 150.00,
+                            "img": "Taza.png",
+                            "nota": "¡Haz que cada sorbo cuente con nuestro termo personalizado!",
+                            "descripcion": "Diseñado para acompañarte en tus aventuras diarias, ya sea en la oficina, en el gimnasio o explorando la naturaleza. Con su construcción de acero inoxidable de alta calidad, mantiene tus bebidas frías o calientes durante horas. Pero lo que realmente lo hace especial es la posibilidad de personalizarlo con tu propio estilo."
+                        },
+                        {
+                            "code": "02",
+                            "name": "Gorra",
+                            "price": 350.00,
+                            "img": "Gorra.jpg",
+                            "nota": "",
+                            "descripcion": ""
+
+                        },
+                        {
+                            "code": "03",
+                            "name": "Termo",
+                            "price": 175.00,
+                            "nota": "",
+                            "img": "Termo.png",
+                            "descripcion": ""
+                        },
+                        {
+                            "code": "04",
+                            "name": "Llavero",
+                            "img": "Lllavero.png",
+                            "price": 75.00
+                        },
+                        {
+                            "code": "05",
+                            "name": "Taza de Ceramica",
+                            "price": 160.00,
+                            "nota": "",
+                            "img": "Taza3.png",
+                            "descripcion": ""
+                        },
+                        {
+                            "code": "06",
+                            "name": "Llavero",
+                            "price": 75.00,
+                            "nota": "",
+                            "img": "Lllavero.png",
+                            "descripcion": ""
+                        }
+                    ]
+                }
+            },
+
+            methods: {
+                GetSession(Name) {
+                    let json = sessionStorage.getItem(Name);
+                    let NewData = JSON.parse(json);
+                    return NewData ?? [];
+                },
+
+                Compar() {
+                    let Carrito = this.GetSession("Carrito")
+                    Carrito.push(this.Articulo);
+                    sessionStorage.setItem("Carrito", JSON.stringify(Carrito));
+                    globalThis.location.href = './cart-shoping.html';
+                }
+            },
+            async mounted() {
+                const params = new URLSearchParams(globalThis.location.search);
+                const Code = params.get('Code') || params.get('code') || "";
+
+                console.log(Code, Code.length == 0)
+                // Comprueba si el parámetro 'Code' está presente y no está vacío
+                if ((Code?.trim() || "") == 0) {
+                    // Redirige si el parámetro 'Code' no está presente o está vacío
+                    globalThis.location.href = './shop.html';
+                    return;
+                }
+
+                this.Articulo = this.Data.find((A)=> A.code == Code);
+            
+            }
+        });
+        app.mount('#App');
+
         document.addEventListener('DOMContentLoaded', function () {
             const visor = document.getElementById('visor');
             const taza = document.querySelector("#visor>img.img-fluid")
@@ -605,11 +703,11 @@ https://templatemo.com/tm-559-zay-shop
             const dimensiontop = document.getElementById('redimension-top');
             const dimensionbotton = document.getElementById('redimension-bottom');
 
-            const centerv =  document.getElementById('center-vertical');
-            const centerh =  document.getElementById('center-horizontal');
-            const zoomIn =   document.getElementById('zoomIn')
-            const zoomOut =   document.getElementById('zoomOut')
-            const Restablecer =   document.getElementById('restablecer')
+            const centerv = document.getElementById('center-vertical');
+            const centerh = document.getElementById('center-horizontal');
+            const zoomIn = document.getElementById('zoomIn')
+            const zoomOut = document.getElementById('zoomOut')
+            const Restablecer = document.getElementById('restablecer')
 
             let offsetX, offsetY;
             let isDragging = false;
@@ -696,8 +794,8 @@ https://templatemo.com/tm-559-zay-shop
                             redimension.style.display = 'block';
                             redimension.style.left = '39%';
                             redimension.style.top = '30%';
-                            diseno.style.width =  '80px';
-                            diseno.style.height =  '90px';
+                            diseno.style.width = '80px';
+                            diseno.style.height = '90px';
                             isDragging = false;
                             isResizing = false;
                         };
@@ -710,7 +808,7 @@ https://templatemo.com/tm-559-zay-shop
 
 
             diseno.addEventListener('mousedown', function (event) {
-                if( redimension.style.display == 'none'){
+                if (redimension.style.display == 'none') {
                     isDragging = false;
                     isResizing = false;
                     return;
@@ -721,7 +819,7 @@ https://templatemo.com/tm-559-zay-shop
             });
 
             document.addEventListener('mousemove', function (event) {
-                if( redimension.style.display == 'none'){
+                if (redimension.style.display == 'none') {
                     isDragging = false;
                     isResizing = false;
                     return;
@@ -765,7 +863,7 @@ https://templatemo.com/tm-559-zay-shop
 
             dimensiontop.addEventListener('mousedown', function (event) {
 
-                if( redimension.style.display == 'none'){
+                if (redimension.style.display == 'none') {
                     isDragging = false;
                     isResizing = false;
                     return;
@@ -783,7 +881,7 @@ https://templatemo.com/tm-559-zay-shop
 
             dimensionbotton.addEventListener('mousedown', function (event) {
 
-                if( redimension.style.display == 'none'){
+                if (redimension.style.display == 'none') {
                     isDragging = false;
                     isResizing = false;
                     return;

@@ -10,8 +10,42 @@ main {
 	background-color: #fff;
 	width: 65vw;
 	height: 400px;
+	display: grid;
+  grid-template-rows: 1fr auto;
 }
 
+.product div {
+
+}
+
+.product img{
+	height: 80px;
+}
+
+.empaque{
+	display: grid;
+	grid-template-columns: 150px 150px 150px 150px;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	background-color: #f4f4f4;
+	padding-top: 20px;
+}
+
+.empaque picture {
+	background-color: #fff;
+}
+
+.empaque label{
+	    grid-column: 4 span;
+    text-align: center;
+    font-weight: bold !important;
+}
+
+.empaque img{
+	width: 120px;
+	height: 150px;
+}
 
 .payment {
 	display: flex;
